@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Slider Range</h1>
+        <div class="slider-container">
+            <div class="slider-container-content">
+                <h3>Age</h3>
+                <div class="input-container">
+                      <input type="number"   class="min-max" id="min-age" />
+                    <span class="amount-label">-</span>
+                    <input type="number"  class="min-max" id="max-age" />                 
+                </div> 
+            </div>       
+            <div  class="slider-range" id="slider-range-age"></div>
+        </div>
+        <div class="slider-container">
+            <div class="slider-container-content">
+                <h3>Height</h3>
+                <div class="input-container">
+                    <input type="number"   class="min-max" id="min-height" />
+                    <span class="amount-label">-</span>
+                    <input type="number"   class="min-max" id="max-height" />                
+                </div> 
+            </div> 
+            <div class="slider-range" id="slider-range-height"></div>     
+        </div>
+        <div class="slider-container-content">
+            <label for="Status"><h3>Status</h3></label>
+            <input type="checkbox" id="Status" name="Status">
+        </div>
+
+        <div class="wrapper-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>Height</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill</td>
+                    <td>Male</td>
+                    <td>17</td>
+                    <td>175</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td>18</td>
+                    <td>165</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Olivia</td>
+                    <td>Female</td>
+                    <td>17</td>
+                    <td>183</td>
+                    <td>Not Active</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>19</td>
+                    <td>177</td>
+                    <td>Active</td>
+                </tr>
+                    <tr>
+                    <td>5</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>28</td>
+                    <td>160</td>
+                    <td>Not Active</td>
+                </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>25</td>
+                    <td>151</td>
+                    <td>Active</td>
+                </tr>
+                    <tr>
+                    <td>7</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>30</td>
+                    <td>157</td>
+                    <td>Active</td>
+                </tr>
+                    <tr>
+                    <td>8</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>23</td>
+                    <td>145</td>
+                    <td>Not Active</td>
+                </tr>
+                    <tr>
+                    <td>9</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>2</td>
+                    <td>192</td>
+                    <td>Not Active</td>
+                </tr>
+                    <tr>
+                    <td>10</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>14</td>
+                    <td>171</td>
+                    <td>Not Active</td>
+                </tr>
+                    <tr>
+                    <td>11</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>10</td>
+                    <td>168</td>
+                    <td>Active</td>
+                </tr>
+                    <tr>
+                    <td>12</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>4</td>
+                    <td>164</td>
+                    <td>Active</td>
+                </tr>
+                                    
+            </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://mottie.github.io/tablesorter/dist/js/jquery.tablesorter.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
